@@ -1,0 +1,7 @@
+<!--pages/dg/dg.wxml-->
+<view class="container">
+  <view class="header">习俗导览</view>
+    <view wx:for="{{dgList}}" wx:key="index" class="clothes-item" >
+      <image src="{{item.ima}}" class="clothes-image" mode:widthFix bindtap="viewDetail" id="{{item._id}}"></image>
+    </view>
+</view>

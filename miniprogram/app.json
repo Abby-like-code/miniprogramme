@@ -1,0 +1,46 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/postDetail/postDetail",
+    "pages/talk/talk",
+    "pages/ft/ft",
+    "pages/csdet/csdet",
+    "pages/cs/cs",
+    "pages/dg/dg", "pages/dgdet/dgdet",
+    "pages/cloth/cloth",
+    "pages/clothesDetail/clothesDetail",
+    "pages/my/my",
+    "pages/myposts/myposts"
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarTitleText": "古韵时光",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color":"#8a8a8a",
+    "selectedColor": "#d81e06",
+    "list": [{"pagePath": "pages/index/index",
+      "text": "学习",
+      "iconPath": "images/study.png",
+      "selectedIconPath": "images/study1.png"
+    },{
+      "pagePath": "pages/talk/talk",
+      "text": "交流",
+      "iconPath": "images/talk.png",
+      "selectedIconPath": "images/talk1.png"
+    },{
+      "pagePath": "pages/my/my",
+      "text": "我的",
+      "iconPath": "images/user.png",
+      "selectedIconPath": "images/user1.png"
+    }]
+  },
+  "sitemapLocation": "sitemap.json",
+  "usingComponents": {
+    "van-button": "@vant/weapp/button/index",
+    "van-icon": "@vant/weapp/icon/index"
+  }
+}

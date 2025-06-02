@@ -1,0 +1,9 @@
+<view class="profile-container">
+ <image class="avatar" src="{{userInfo.avatarUrl}}"></image>
+  <text class="username">{{userInfo.nickName}}</text>
+  <button class="auth-btn" open-type="getUserInfo" bindgetuserinfo="getUserInfo"
+  wx:if="{{!isLogged}}">授权登录</button>
+  <button class="view-posts-btn" bindtap="goToMyPosts" wx:if="{{isLogged}}">我的帖子</button>
+   <button class="logout-btn" bindtap="logout" wx:if="{{isLogged}}">退出账号</button>
+  
+</view>

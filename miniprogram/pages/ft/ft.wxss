@@ -1,0 +1,1 @@
+/* post.wxss */ .container { padding: 20rpx; } .image-container { display: flex; flex-wrap: wrap; } .image-container image { width: 100rpx; height: 100rpx; margin-right: 10rpx; margin-bottom: 10rpx; }

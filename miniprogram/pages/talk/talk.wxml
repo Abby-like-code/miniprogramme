@@ -1,0 +1,20 @@
+<view class="post-container"> 
+<view class="post-item" wx:for="{{ posts }}" 
+wx:key="postId" 
+data-postid="{{ item._id }}" bindtap="viewPostDetail"> 
+<image class="avatar" mode = "heightFix" src="{{ item.avatar }}">
+</image>
+<view class="post-content">
+  <view> 标题：{{ item.title }} </view>
+  <view class="xz">
+  <view>作者：{{item.author}}
+  </view>
+  <view>
+  <!-- 发表时间： -->
+  <text>{{item.createTime}}</text></view>
+  <view> 浏览量：{{item.views}}
+  </view>
+  </view>
+</view>
+</view> 
+</view>

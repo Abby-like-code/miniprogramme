@@ -1,0 +1,2 @@
+/* pages/myposts/myposts.wxss */
+.container { padding: 20rpx; } .post-list { margin-top: 20rpx; } .post-item { margin-bottom: 10rpx; border: 1px solid #e0e0e0; padding: 10rpx; }

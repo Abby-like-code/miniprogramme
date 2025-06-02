@@ -1,0 +1,10 @@
+<!--pages/myposts/myposts.wxml-->
+<view class="container"> <!-- 发帖按钮 --> <button bindtap="goToPostPage">发布帖子</button> <!-- 帖子列表 --> 
+<view class="post-list"> <block wx:for="{{ posts }}" wx:key="postId"> 
+<view class="post-item"> <text>{{ item.title }}</text> 
+<view><text>{{ item.content }}</text></view>
+ <button bindtap="deletePost" data-postid="{{ item._id }}">删除</button> 
+ </view>
+  </block> 
+  </view> 
+  </view>

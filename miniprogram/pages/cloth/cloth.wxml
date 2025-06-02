@@ -1,0 +1,13 @@
+<!--pages/cloth/cloth.wxml-->
+<view class="container">
+  <view class="header">服饰导览</view>
+    <view wx:for="{{clothesList}}" wx:key="index" class="clothes-item" >
+      <image src="{{item.imageUrls}}" class="clothes-image" mode:widthFix bindtap="viewDetail" id="{{item._id}}"></image>
+      
+    </view>
+  
+</view><!-- </scroll-view> -->
+<!-- <view class="clothes-info">
+        <text class="title">{{item.title}}</text>
+        <text class="dynasty">{{item.dynasty}}</text>
+      </view>  -->

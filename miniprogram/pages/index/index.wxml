@@ -1,0 +1,39 @@
+<view class="sy">
+ <image class="pic" src="/images/sy.png"> 
+    <view class="cd">
+      <navigator  class="mg" url="/pages/cloth/cloth">
+      <view class="ceng">
+      服饰
+      </view>
+      </navigator>
+    
+      <navigator  class="mg" url="/pages/dg/dg">
+      <view class="ceng">
+      典故
+      </view>
+      </navigator>
+    
+    
+      <navigator class="mg" url="/pages/cs/cs">
+      <view class="ceng">
+      习俗
+      </view>
+      </navigator>
+  
+<!--     
+      <navigator class="mg" url="/pages/ming/ming">
+      <view class="ceng">
+      明
+      </view>
+      </navigator>
+   
+    
+      <navigator class="mg" url="/pages/qing/qing">
+      <view class="ceng">
+      清
+      </view>
+      </navigator> -->
+    </view>
+  </image>
+</view>
+

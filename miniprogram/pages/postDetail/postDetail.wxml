@@ -1,0 +1,48 @@
+<!--pages/postDetail/postDetail.wxml-->
+<view class="container">
+  <!-- 头部信息 -->
+  <view class="header">
+    <image class="avatar" src="{{post.avatar}}"></image>
+    <view class="info">
+      <text class="nickname">{{post.author}}</text>
+      <view>
+      <text class="time-views">{{post.createTime}} · {{post.views}}次浏览</text>
+      </view>
+    </view>
+  </view>
+
+  <!-- 标题和内容 -->
+  <view class="content">
+    <text class="title">{{post.title}}</text>
+    <view>
+    <text class="content-text">{{post.content}}</text>
+    </view>
+    <view class="image-container"> 
+<image wx:for="{{post.imageUrls}}" wx:key="index" src="{{item}}" mode="aspectFill"></image> 
+</view> 
+  </view>
+
+  <!-- 评论列表 -->
+  <view class="comments">
+    <block wx:for="{{comments}}" wx:key="index">
+      <view class="comment-item">
+        <image class="comment-avatar" src="{{item.avatarUrl}}"></image>
+        <view class="comment-info">
+          <text class="comment-nickname">{{item.nickName}}</text>
+          <view>
+          <text class="comment-content">{{item.commentContent}}</text>
+          <text class="comment-time">{{item.createTime}}</text>
+          </view>
+        </view>
+      </view>
+    </block>
+  </view>
+
+  <!-- 添加评论区域 -->
+  <view class="add-comment">
+    <input class="comment-input" placeholder="添加评论" 
+    bindinput="onCommentInput" ></input>
+    <button class="comment-btn" bindtap="addComment">发布</button>
+  </view>
+</view>
+<!-- value="{{commentContent}}"  -->

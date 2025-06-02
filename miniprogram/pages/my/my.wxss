@@ -1,0 +1,8 @@
+.profile-container { text-align: center; padding: 20rpx; }
+ .avatar { width: 100rpx; height: 100rpx; border-radius: 50%; } 
+ .username { margin-top: 20rpx; font-size: 16px; } 
+ .auth-btn { margin-top: 20rpx; background-color: #4CAF50; color: #FFFFFF; border-radius: 4px; padding: 10rpx 20rpx; } 
+ .logout-btn {
+  margin-top: 20rpx; background-color: #eb0606; color: #FFFFFF; border-radius: 4px; padding: 10rpx 20rpx; 
+}
+ .view-posts-btn { margin-top: 20rpx; background-color: #ffbb00; color: #FFFFFF; border-radius: 4px; padding: 10rpx 20rpx; }

@@ -1,0 +1,6 @@
+.sy{width:750rpx;height:1200rpx;}
+.sy .pic{width:100%;height:100%;}
+.sy .cd{width:100%;height:100%;display:flex;flex-direction:column;justify-content: center;align-items:center;position:absolute;top:0;left:0;color:white;}
+.cd .mg{ border:1px solid black;width:125px;height:60px;
+  background-color:rgb(253, 14, 14);margin-bottom: 20px;position:relative}
+.ceng{width:100%;height:100%;position:absolute;background:rgba(9, 248, 116, 0.247);top:0;left:0;display:flex;justify-content: center;align-items:center;}

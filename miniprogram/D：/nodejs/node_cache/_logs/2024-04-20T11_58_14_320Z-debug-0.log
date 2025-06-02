@@ -1,0 +1,82 @@
+0 verbose cli D:\nodejs\node.exe D:\nodejs\node_modules\npm\bin\npm-cli.js
+1 info using npm@10.2.3
+2 info using node@v18.19.0
+3 timing npm:load:whichnode Completed in 3ms
+4 timing config:load:defaults Completed in 3ms
+5 timing config:load:file:D:\nodejs\node_modules\npm\npmrc Completed in 4ms
+6 timing config:load:builtin Completed in 4ms
+7 warn config production Use `--omit=dev` instead.
+8 timing config:load:cli Completed in 3ms
+9 timing config:load:env Completed in 0ms
+10 timing config:load:file:E:\小程序云开发\miniprogram\.npmrc Completed in 0ms
+11 timing config:load:project Completed in 2ms
+12 timing config:load:file:C:\Users\ASUS\.npmrc Completed in 1ms
+13 timing config:load:user Completed in 1ms
+14 timing config:load:file:D:\nodejs\node_global\etc\npmrc Completed in 0ms
+15 timing config:load:global Completed in 1ms
+16 timing config:load:setEnvs Completed in 1ms
+17 timing config:load Completed in 16ms
+18 timing npm:load:configload Completed in 16ms
+19 timing config:load:flatten Completed in 3ms
+20 timing npm:load:mkdirpcache Completed in 0ms
+21 timing npm:load:mkdirplogs Completed in 0ms
+22 verbose title npm i @vant/weapp
+23 verbose argv "i" "@vant/weapp" "--save" "--production"
+24 timing npm:load:setTitle Completed in 2ms
+25 timing npm:load:display Completed in 4ms
+26 verbose logfile logs-max:10 dir:E:\小程序云开发\miniprogram\D：\nodejs\node_cache\_logs\2024-04-20T11_58_14_320Z-
+27 verbose logfile E:\小程序云开发\miniprogram\D：\nodejs\node_cache\_logs\2024-04-20T11_58_14_320Z-debug-0.log
+28 timing npm:load:logFile Completed in 11ms
+29 timing npm:load:timers Completed in 0ms
+30 timing npm:load:configScope Completed in 0ms
+31 timing npm:load Completed in 70ms
+32 timing arborist:ctor Completed in 1ms
+33 silly logfile done cleaning log files
+34 timing arborist:ctor Completed in 0ms
+35 timing idealTree:init Completed in 14ms
+36 timing idealTree:userRequests Completed in 2ms
+37 silly idealTree buildDeps
+38 silly fetch manifest @vant/weapp@*
+39 http fetch GET 200 https://registry.npmjs.org/npm 1115ms (cache miss)
+40 http fetch GET 200 https://registry.npmjs.org/@vant%2fweapp 1072ms (cache miss)
+41 silly placeDep ROOT @vant/weapp@1.11.5 OK for: miniprogram@1.0.0 want: *
+42 timing idealTree:#root Completed in 1085ms
+43 timing idealTree:node_modules/@vant/weapp Completed in 0ms
+44 timing idealTree:buildDeps Completed in 1087ms
+45 timing idealTree:fixDepFlags Completed in 0ms
+46 timing idealTree Completed in 1104ms
+47 timing reify:loadTrees Completed in 1105ms
+48 timing reify:diffTrees Completed in 1ms
+49 silly reify moves {}
+50 timing reify:retireShallow Completed in 3ms
+51 timing reify:createSparse Completed in 7ms
+52 timing reify:trashOmits Completed in 0ms
+53 timing reify:loadBundles Completed in 0ms
+54 silly audit bulk request { '@vant/weapp': [ '1.11.5' ] }
+55 silly tarball no local data for @vant/weapp@https://registry.npmjs.org/@vant/weapp/-/weapp-1.11.5.tgz. Extracting by manifest.
+56 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 211ms
+57 timing auditReport:getReport Completed in 214ms
+58 silly audit report {}
+59 timing auditReport:init Completed in 0ms
+60 timing reify:audit Completed in 215ms
+61 http fetch GET 200 https://registry.npmjs.org/@vant/weapp/-/weapp-1.11.5.tgz 1638ms (cache miss)
+62 timing reifyNode:node_modules/@vant/weapp Completed in 1649ms
+63 timing reify:unpack Completed in 1650ms
+64 timing reify:unretire Completed in 0ms
+65 timing build:queue Completed in 1ms
+66 timing build:deps Completed in 3ms
+67 timing build Completed in 3ms
+68 timing reify:build Completed in 4ms
+69 timing reify:trash Completed in 0ms
+70 timing reify:save Completed in 9ms
+71 timing reify Completed in 2860ms
+72 silly ADD node_modules/@vant/weapp
+73 timing command:i Completed in 2869ms
+74 notice
+74 notice New [33mminor[39m version of npm available! [31m10.2.3[39m -> [32m10.5.2[39m
+74 notice Changelog: [36mhttps://github.com/npm/cli/releases/tag/v10.5.2[39m
+74 notice Run [32mnpm install -g npm@10.5.2[39m to update!
+74 notice
+75 verbose exit 0
+76 timing npm Completed in 3552ms
+77 info ok

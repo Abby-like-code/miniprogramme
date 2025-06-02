@@ -1,0 +1,10 @@
+<view class="container">
+  <image src="{{clothesDetail.ima}}" class="detail-image"  mode = "widthFix"></image>
+  <view class="detail-info">
+  <view class="title">
+    {{clothesDetail.title}}
+  </view>
+  <view  class="dynasty">{{clothesDetail.dyn}}</view>
+  <view class="description">{{clothesDetail.des}}</view>
+  </view>
+</view>
