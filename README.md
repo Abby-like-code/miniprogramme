@@ -44,24 +44,15 @@
 管理后台	云函数 + 管理权限控制
 
 📂 项目结构
-
 miniprogramme/
 ├── miniprogram/             # 小程序主目录（前端页面与逻辑）
-|   |
 │   ├── pages/               # 页面目录（首页/详情页/社区/用户中心）
-|   |
 │   ├── utils/               # 工具函数
-|   |
 │   └── app.js / json / wxss
-|
 ├── cloudfunctions/          # 云函数（发帖/评论/数据管理）
-|
 ├── 数据集/                  # 本地文化素材与参考数据
-|
 ├── project.config.json      # 微信小程序项目配置
-|
 ├── uploadCloudFunction.sh   # 云函数上传脚本
-|
 └── README.md
 
 🛠️ 快速启动指南
