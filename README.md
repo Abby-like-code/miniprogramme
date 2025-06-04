@@ -31,7 +31,7 @@
 
 💻 技术架构
 
-模块	技术选型
+模块	    技术选型
 
 前端开发	微信小程序原生框架
 
@@ -47,22 +47,34 @@
 
 miniprogramme/
 ├── miniprogram/             # 小程序主目录（前端页面与逻辑）
+|   |
 │   ├── pages/               # 页面目录（首页/详情页/社区/用户中心）
+|   |
 │   ├── utils/               # 工具函数
+|   |
 │   └── app.js / json / wxss
+|
 ├── cloudfunctions/          # 云函数（发帖/评论/数据管理）
+|
 ├── 数据集/                  # 本地文化素材与参考数据
+|
 ├── project.config.json      # 微信小程序项目配置
+|
 ├── uploadCloudFunction.sh   # 云函数上传脚本
+|
 └── README.md
 
 🛠️ 快速启动指南
 
 1、克隆项目
 git clone https://github.com/Abby-like-code/miniprogramme.git
+
 2、使用微信开发者工具打开 miniprogramme 目录
+
 3、启用云开发环境，绑定环境 ID
+
 4、上传并部署 cloudfunctions 中的所有函数
+
 5、点击运行 / 预览，即可体验完整功能
 
 🧠 项目亮点与创新点
